@@ -1,0 +1,66 @@
+.footer{
+    margin-top:25px;
+    text-align:center;
+}
+
+.copy-btn{
+    width:100%;
+    height:55px;
+    border:none;
+    border-radius:16px;
+    background:linear-gradient(135deg,#f97316,#ea580c);
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.copy-btn:hover{
+    transform:translateY(-2px);
+    box-shadow:0 10px 25px rgba(249,115,22,.35);
+}
+
+.copy-btn:active{
+    transform:scale(.98);
+}
+
+.developer{
+    margin-top:18px;
+    color:#94a3b8;
+    font-size:14px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:6px;
+}
+
+.developer span{
+    color:#f97316;
+    font-weight:600;
+}
+
+.heart{
+    color:#ef4444;
+}
+
+.light .developer{
+    color:#475569;
+}
+
+@media(max-width:480px){
+
+.copy-btn{
+    height:50px;
+    font-size:15px;
+}
+
+.developer{
+    font-size:13px;
+}
+
+}
